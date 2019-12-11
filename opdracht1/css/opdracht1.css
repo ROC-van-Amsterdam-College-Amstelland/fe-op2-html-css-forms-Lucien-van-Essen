@@ -1,0 +1,43 @@
+body{
+    display: flex;
+    justify-content: center;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+h2{
+    color: green;
+}
+.container{
+    border: 1px solid black;
+    padding: 20px;
+    text-align: right;
+}
+
+label{
+    width: 10vw;
+    display: inline-block;
+    text-align: right;
+}
+
+input{
+    border: 1px solid black;
+    line-height: 20px;
+}
+
+.row{
+    margin: 20px 0px;
+}
+
+
+
+.btn-row button{
+    background-color: green;
+    color:white;
+    border: solid black 1px;
+}
+
+.btn-row{
+    display: flex;
+    justify-content: flex-end;
+}
+

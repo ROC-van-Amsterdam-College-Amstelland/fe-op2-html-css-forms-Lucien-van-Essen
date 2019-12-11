@@ -1,0 +1,47 @@
+body{
+    display: flex;
+    justify-content: center;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    color: white;
+    background-color: black;
+}
+
+.container{
+    border: 1px solid white;
+    padding: 30px;
+}
+
+h2,h4{
+    text-align: center;
+}
+
+label{
+    width: 10vw;
+    display: inline-block;
+    text-align: left;
+}
+
+input{
+    width: 31vw;
+}
+
+.row{
+    margin: 10px 0px;
+    text-align: left;
+}
+
+a{
+    font-size: 10px;
+}
+
+.btn-row{
+    justify-content: center;
+
+}
+
+.btn-row button{
+    background-color: steelblue;
+    color: white;
+    width: 310px;
+    margin: 10px 0px;
+}
